@@ -1,0 +1,40 @@
+
+
+body{
+background-color: rgb(46, 46, 46);
+  
+}
+
+.center {
+    display: block;
+    margin: auto;
+ }
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+
+  .inner-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  
+  .nested-column-1 {
+    background-color: transparent;
+  }
+  
+  .nested-column-2 {
+    background-color: transparent;
+  }
+  
+  .nested-column-3 {
+    background-color: transparent;
+  }
+  
+
